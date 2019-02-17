@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProjektZaliczeniowyPatrycjaSzubryt", "ProjektZaliczeniowyPatrycjaSzubryt\ProjektZaliczeniowyPatrycjaSzubryt.dwproj", "{AF5B6FB5-D010-4077-9941-AD0F1A62494A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF5B6FB5-D010-4077-9941-AD0F1A62494A}.Development|Default.ActiveCfg = Development
+		{AF5B6FB5-D010-4077-9941-AD0F1A62494A}.Development|Default.Build.0 = Development
+		{AF5B6FB5-D010-4077-9941-AD0F1A62494A}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E29CF17-7E86-4470-8F00-EBFF0EC6FCD7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProjektZaliczeniowyPatrycjaSzubryt</Database>
+    <Server>DESKTOP-ADGNRL5</Server>
+    <ConnectionString>Data Source=DESKTOP-ADGNRL5;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>VILhz2FLYlGk8frsV2MCrHRKjw4=2/15/2019 7:35:02 PM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>t3GNlb4fndfH9JHJdT2RskaBh+A=2/16/2019 12:02:42 PM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2B03p4khFqMdYwQc3wMWcBT9AJo=2/17/2019 11:15:14 AM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>V Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5j3sejNqDXkxA/h9Kd2Rp6RGnBc=2/16/2019 12:02:42 PM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>V Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Oo4gKtBrDESDIO28Avye0UUuSh0=2/16/2019 11:58:24 AM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>V Stock Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>S4aKlKb5kwqH7Farvx5+svbo7Gc=2/16/2019 11:56:54 AM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>V City</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Tis615bUZMLc4H0Y6bapqoYuMDA=2/17/2019 11:12:18 AM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>V Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>w+BaOBhhRZ3p5XUA3X9W0UHq230=2/17/2019 11:15:14 AM2/17/2019 10:57:07 AMmMSpjDsi18vquTmzMh04pczjmes=2/17/2019 11:06:13 AM2/17/2019 10:57:07 AM</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>GmhM2lEQRpv+BblgcC+d9+g2S0U=2/11/2019 5:22:32 PM2/17/2019 10:57:07 AM</TimeStamp>
+      <ID>
+        <String>ProjektZaliczeniowyPatrycjaSzubryt</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-02-17T10:15:29.436667Z</LastDeployed>
+</DeploymentSnapshot>
